@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="2dp"
+        android:id="@+id/imageView">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="23dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:text="Line 1"
+        android:id="@+id/full_name"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="61dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:text="Line 2"
+        android:id="@+id/hours_engaged"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
+        android:textStyle="normal"></TextView>
+</RelativeLayout>
+</androidx.cardview.widget.CardView>
